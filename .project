@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>HowMany</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.adobe.flexbuilder.project.flexbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.adobe.flexbuilder.project.apollobuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.adobe.flexbuilder.project.apollonature</nature>
+		<nature>com.adobe.flexbuilder.project.actionscriptnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[source path] Hi-ReS-Stats-master-src</name>
+			<type>2</type>
+			<location>/Users/Cemie-Geo/Desktop/flash_files/Hi-ReS-Stats-master/src</location>
+		</link>
+		<link>
+			<name>[source path] Source</name>
+			<type>2</type>
+			<location>/Users/Cemie-Geo/Desktop/flash_files/Box2DFlashAS3 2.1a/Source</location>
+		</link>
+		<link>
+			<name>[source path] starling-src</name>
+			<type>2</type>
+			<location>/Users/Cemie-Geo/Desktop/flash_files/Gamua-Starling-Framework-def24cc/starling/src</location>
+		</link>
+	</linkedResources>
+</projectDescription>
