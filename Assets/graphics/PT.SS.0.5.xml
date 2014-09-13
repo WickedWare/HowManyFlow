@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a89291bd59a59ff3c69c0a16c1649b7d:cb55555fdc2c8f11363d4edfba523fc3:27c1ef8489be19048941837635ac4224$ -->
+<TextureAtlas imagePath="PT.SS.0.5.png">
+    <SubTexture name="Fruta" x="852" y="352" width="42" height="46" frameX="0" frameY="-2" frameWidth="42" frameHeight="48"/>
+    <SubTexture name="Fruta1" x="896" y="392" width="37" height="33" frameX="0" frameY="-2" frameWidth="37" frameHeight="35"/>
+    <SubTexture name="Nave" x="777" y="352" width="73" height="73"/>
+    <SubTexture name="PanelVertical1" x="2" y="2" width="773" height="470"/>
+    <SubTexture name="background_Btn" x="777" y="427" width="133" height="43" frameX="-1" frameY="-1" frameWidth="135" frameHeight="45"/>
+    <SubTexture name="dot" x="896" y="352" width="38" height="38"/>
+    <SubTexture name="planet 04" x="777" y="2" width="348" height="348"/>
+</TextureAtlas>

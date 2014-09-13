@@ -1,6 +1,5 @@
-package
+package 
 {	
-	import Screens.InGame;
 	
 	import flash.display.Sprite;
 	import flash.events.Event;
@@ -10,8 +9,9 @@ package
 	import starling.core.Starling;
 	import starling.core.starling_internal;
 	import starling.events.Event;
+	import core.Game;
 	
-	[SWF(frameRate="60", width="1024", height="780", backgroundColor="0x333333")]
+	[SWF(frameRate="60", width="1280", height="800", backgroundColor="0x333333")]
 	public class HowMany extends flash.display.Sprite
 	{
 		private var stats:Stats;
@@ -20,9 +20,9 @@ package
 		
 		public function HowMany()
 		{
-//			stats = new Stats();
-//			this.addChild(stats);
-			
+			stats = new Stats();
+			this.addChild(stats);
+		
 			// objeto starling 
 			starling = new Starling(Game, stage);
 			starling.antiAliasing = 1;

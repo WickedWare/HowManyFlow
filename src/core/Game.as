@@ -1,8 +1,8 @@
-package
-{
+package core
+{	
 	import starling.display.Sprite;
 	import starling.events.Event;
-	import Screens.InGame;
+	import Screens.DemoState;
 	
 	public class Game extends Sprite
 	{
@@ -14,8 +14,8 @@ package
 		
 		private function onAddedToStage(event:Event):void
 		{
-			// define pantallas 
-			var inGameScreen = new InGame();
+			// define pantallas
+			var inGameScreen = new DemoState(this);
 			this.addChild(inGameScreen);
 		}
 	}
