@@ -46,7 +46,7 @@ package Screens
 	{
 		//private var customContact:customContactListener;
 		//time management
-		private var stopTimer:Timer = new Timer(2000);
+		private var stopTimer:Timer = new Timer(100);
 		private var timerStopped:Boolean = false;
 		private var makeStaticTimer:Timer = new Timer(4000);
 		private var timePrevious:Number = 0;
@@ -94,7 +94,6 @@ package Screens
 			inBoxTotalBalls = randomNumber;
 			balls = new Vector.<b2Body>();
 			ballSprites = new Vector.<Image>();
-			//for (var i:int = 0; i < randomNumber; i++)
 			for (var i:int = 0; i < randomNumber; i++)
 			{
 				var SphereTexture:Image = new Image(AssetsManager.getAtlas().getTexture("Fruta1"));
@@ -166,7 +165,6 @@ package Screens
 		{
 			timePrevious = timeCurrent;
 			timeCurrent = getTimer();
-			
 			elapsed = (timeCurrent - timePrevious);
 		}
 		
@@ -238,18 +236,12 @@ package Screens
 		{
 			if (hooked)
 			{
-				//				for (var i:int = 0; i < balls.length; i++)
-				//				{
-				//					//balls[i].SetType(b2Body.b2_dynamicBody);
-				//					if (balls[i].IsAwake() == false)
-				//						balls[i].SetAwake(true);
-				//				}
 				hooked = false;
 			}
 			for (var i:int = 0; i < joints.length; i++)
 			{
-				if (joints[i].GetLength() > 0.5)
-					joints[i].SetLength(joints[i].GetLength() * 0.85);
+				if (joints[i].GetLength() > 0.05)
+					joints[i].SetLength(joints[i].GetLength() * 0.95);
 			}
 		}
 		
@@ -257,8 +249,8 @@ package Screens
 		{
 			for (var i:int = 0; i < balls.length; i++)
 			{
-				var randomY:int = Helpers.randomInt(-300,300);
-				var randomX:int = Helpers.randomInt(-400, 400);
+				var randomY:int = Helpers.randomInt(-5,5);
+				var randomX:int = Helpers.randomInt(-10, 10);
 				balls[i].ApplyImpulse(new b2Vec2(randomX,randomY),balls[i].GetWorldCenter());
 			}
 		}

@@ -33,8 +33,8 @@ package core
 
 		override public function init(event:Event):void
 		{
-			_gravity = new b2Vec2(0,0);
-			_world = new b2World(_gravity,false);
+			_gravity = new b2Vec2(0,9.81);
+			_world = new b2World(_gravity,true);
 			debugDraw(HowMany.debugSprite);
 			super.init(event);
 		}

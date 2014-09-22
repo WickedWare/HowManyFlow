@@ -20,21 +20,4 @@
 		<nature>com.adobe.flexbuilder.project.apollonature</nature>
 		<nature>com.adobe.flexbuilder.project.actionscriptnature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>[source path] Hi-ReS-Stats-master-src</name>
-			<type>2</type>
-			<location>/Users/Cemie-Geo/Desktop/flash_files/Hi-ReS-Stats-master/src</location>
-		</link>
-		<link>
-			<name>[source path] Source</name>
-			<type>2</type>
-			<location>/Users/Cemie-Geo/Desktop/flash_files/Box2DFlashAS3 2.1a/Source</location>
-		</link>
-		<link>
-			<name>[source path] starling-src</name>
-			<type>2</type>
-			<location>/Users/Cemie-Geo/Desktop/flash_files/Gamua-Starling-Framework-def24cc/starling/src</location>
-		</link>
-	</linkedResources>
 </projectDescription>

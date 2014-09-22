@@ -15,7 +15,10 @@ package core
 		private function onAddedToStage(event:Event):void
 		{
 			// define pantallas
-			var inGameScreen = new DemoState(this);
+//			var inGameScreen = new DemoState(this);
+//			this.addChild(inGameScreen);
+			
+			var inGameScreen = new DemoProduce(this);
 			this.addChild(inGameScreen);
 		}
 	}
